@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+</head>
+<body>
+    <left>
+        <p>
+            <h1>Register form:</h1>
+        </p>
+    </left>
+    <form action="./login.html"> 
+        <div>
+            <h3>
+              <label for="">Name</label><br>
+              <input type="name" placeholder="Enter  your name..." 
+              name="name"  required > <br>
+            </h3>
+        </div>
+        <div>
+            <h3>
+             <label for="">Email</label><br>
+             <input type="email" placeholder="Enter your email..." 
+             name="email"  required > <br>
+            </h3> 
+        </div>
+        <div>
+            <h3>
+             <label for="">Password</label><br>
+             <input type="password" placeholder="Enter your password.." 
+             name="password"  required > <br>
+            </h3> 
+        </div>
+        <div>
+            <h3>
+             <label for="">Confirm password</label><br>
+             <input type="password" placeholder="Enter your confirm password again.." 
+             name=" confirm password"  required > <br>
+            </h3> 
+        </div>
+        <div>
+            <h3>
+              <label for="">Mobile Number</label><br>
+              <input type="number" placeholder="Enter your Mobil Number..." 
+              name="Mobile Number"  required > <br>
+            </h3>  
+        </div>
+        <div>
+            <h3>
+             <label for="">Address</label><br>
+             <textarea name="Address" id="Address" placeholder="Enter Address"></textarea><br>
+            </h3>
+        </div>
+       <div>
+          <h5>
+            <input type="radio" id="gmale" name="gender" required/>
+            <label for="gmale">Male</label>
+            <input type="radio" id="gfemale"
+            name="gender" required/>
+            <label for="gfemale">Female</label>
+          </h5>
+        </div>
+        <div>
+            <h5>
+               <input type="checkbox" value="10th" required/> 10th
+               <input type="checkbox" value="Inter" required/> Inter
+               <input type="checkbox" value="Diploma" required/>
+               Diploma
+               <input type="checkbox" value="Btech" required/> Btech
+            </h5>   
+        </div>
+        <div>
+            <h2>
+              <select> 
+                 <option value="">Select your city</option>
+                 <option value="Vijayawada" required>Vijayawada</option>
+                 <option value="Hyderbad" required>Hyderbad</option>
+                 <option value="vizag" required>vizag</option>
+                </select>
+            </h2>    
+        </div>
+        <h4><button>Register</button></h4>
+        <h2><p> Already have an account?
+       <a href="login.html">login</a></p></h2>
+    </from>
+</body>
+</html>
